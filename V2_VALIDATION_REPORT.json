@@ -1,0 +1,120 @@
+{
+  "status": "STRUCTURALLY_VALID_CALIBRATION_CANDIDATE_NOT_IN_GAME_VERIFIED",
+  "players": 2084,
+  "same_53_key_schema": true,
+  "teams": {
+    "NYM": 40,
+    "MIN": 40,
+    "Free Agent": 884,
+    "ARI": 40,
+    "MIL": 40,
+    "CHC": 40,
+    "NYY": 40,
+    "PHI": 40,
+    "WAS": 40,
+    "COL": 40,
+    "LAA": 40,
+    "TEX": 40,
+    "TOR": 40,
+    "BOS": 40,
+    "SF": 40,
+    "SD": 40,
+    "MIA": 40,
+    "HOU": 40,
+    "ATL": 40,
+    "BAL": 40,
+    "STL": 40,
+    "LAD": 40,
+    "TB": 40,
+    "KC": 40,
+    "OAK": 40,
+    "SEA": 40,
+    "CIN": 40,
+    "CWS": 40,
+    "CLE": 40,
+    "PIT": 40,
+    "DET": 40
+  },
+  "source_overall_fields_exact": true,
+  "source_individual_attributes_exact": false,
+  "game_export_records": 2599,
+  "unchanged_attribute_identity_matches": 2084,
+  "calibration_model": "Position-specific fitted polynomial; hypothesis, not the published game formula. Held-out errors below describe prediction of existing exports, not verification of v2.",
+  "model_training_sources": [
+    "original fictional PGM export",
+    "user re-export after importing v1"
+  ],
+  "model_validation_by_position": {
+    "1B": {
+      "held_out_mean_absolute_error": 1.2423891609541586,
+      "held_out_max_absolute_error": 5.6615180385860455,
+      "held_out_fraction_exact_after_rounding": 0.46153846153846156
+    },
+    "2B": {
+      "held_out_mean_absolute_error": 1.641823878393083,
+      "held_out_max_absolute_error": 5.508740011735462,
+      "held_out_fraction_exact_after_rounding": 0.3
+    },
+    "3B": {
+      "held_out_mean_absolute_error": 1.2613683154431106,
+      "held_out_max_absolute_error": 5.738304567826532,
+      "held_out_fraction_exact_after_rounding": 0.36538461538461536
+    },
+    "C": {
+      "held_out_mean_absolute_error": 1.9622174496611273,
+      "held_out_max_absolute_error": 8.0,
+      "held_out_fraction_exact_after_rounding": 0.25675675675675674
+    },
+    "CF": {
+      "held_out_mean_absolute_error": 1.7179378376170615,
+      "held_out_max_absolute_error": 5.616817588663629,
+      "held_out_fraction_exact_after_rounding": 0.2549019607843137
+    },
+    "CP": {
+      "held_out_mean_absolute_error": 1.6375430648805982,
+      "held_out_max_absolute_error": 4.35283652713683,
+      "held_out_fraction_exact_after_rounding": 0.1875
+    },
+    "DH": {
+      "held_out_mean_absolute_error": 1.9715262207598423,
+      "held_out_max_absolute_error": 4.444501228781817,
+      "held_out_fraction_exact_after_rounding": 0.1
+    },
+    "LF": {
+      "held_out_mean_absolute_error": 1.4131970984940077,
+      "held_out_max_absolute_error": 7.424397058338279,
+      "held_out_fraction_exact_after_rounding": 0.3888888888888889
+    },
+    "RF": {
+      "held_out_mean_absolute_error": 1.4697768770311794,
+      "held_out_max_absolute_error": 7.206560811485431,
+      "held_out_fraction_exact_after_rounding": 0.2777777777777778
+    },
+    "RP": {
+      "held_out_mean_absolute_error": 1.6688020501218985,
+      "held_out_max_absolute_error": 8.153537926382548,
+      "held_out_fraction_exact_after_rounding": 0.22535211267605634
+    },
+    "SP": {
+      "held_out_mean_absolute_error": 1.5199250806971758,
+      "held_out_max_absolute_error": 5.527231098250269,
+      "held_out_fraction_exact_after_rounding": 0.2154696132596685
+    },
+    "SS": {
+      "held_out_mean_absolute_error": 1.1795924183851703,
+      "held_out_max_absolute_error": 4.0,
+      "held_out_fraction_exact_after_rounding": 0.3
+    }
+  },
+  "v2_max_distance_from_target_in_fitted_model": 0.038221309558821304,
+  "v2_model_error_over_1_count": 0,
+  "limitations": [
+    "In-game overall values and team overalls need another import/export test.",
+    "Attributes are translated estimates and are not exact Show numbers.",
+    "Game can regenerate IDs, potential, positions, measurements, contracts and team assignments.",
+    "Existing game-specific donor contracts, development curves, personalities and countries remain placeholders.",
+    "Staff and team-name metadata still require a separately verified game import format.",
+    "Source is Diamond Dynasty Live Series, not the offline Franchise roster."
+  ],
+  "sha256": "9676a97bcc7b3249ec35ebcccd5db0e2dc9ad693444628cb913472475e2f56aa"
+}
